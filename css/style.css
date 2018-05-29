@@ -30,10 +30,6 @@ header p {
   font-size: 18px;
   color: #f9f9f9;
 }
-.main-list .main-content li{
-  padding: 15px 0px 15px 15px;
-
-}
 .main-list .main-content li:nth-child(2n+1){
   background-color: #88839e;
 }
@@ -42,6 +38,29 @@ header p {
 }
 .main-list .main-content label{
   display: block;
+  padding: 15px;
+}
+.main-list li:hover {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  background-color: #625E77;
+}
+
+.main-list label:active{
+  background-color: #EB7E7F;
+
+}
+
+.maing-list input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  top: 3px;
+  margin: 0 15px 0 10px;
+}
+
+.main-list input[type="checkbox"]:checked ~ span {
+  color: #A49EB2;
+  text-decoration: line-through;
 }
 footer {
   width: 800px;
